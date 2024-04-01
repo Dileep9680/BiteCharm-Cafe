@@ -1,0 +1,605 @@
+/*------------====== Home ======---------------*/
+
+.home1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 10%;
+    margin-top: 10px;
+
+}
+
+.home1 p {
+    margin-right: 15%;
+    margin-top: 10px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.home_imgg {
+    margin-right: 10%;
+}
+
+.home_images {
+    width: 130%;
+    border-radius: 10px;
+}
+
+.home_h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.home_h2  {
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    margin-left: 5px;
+    background-color: navy;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+/*home2*/
+
+.home2 {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10%;
+}
+
+
+.imgg2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.txt2 {
+    margin-left: 6%;
+}
+
+.head2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.head_2 {
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    margin-left: 5px;
+    background-color: navy;
+    border-radius: 5px;
+}
+
+/* ----------========= cards section ============---------- */
+
+.check {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.check .filter ul li {
+    cursor: pointer;
+}
+
+.check .filter ul {
+    display: flex;
+    
+}
+
+.menu-card {
+    justify-content: cente
+}
+
+.filter {
+    /* border: 2px solid gray; */
+    margin-left: 2%;
+
+}
+
+.filter ul {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.filter ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 3px 3px 0;
+}
+.detail-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    /* border: 5px solid red; */
+    margin-left: 5%;
+}
+
+.cards {
+    border: 3px solid gray;
+    margin: 25px 55px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.i-image {
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.card_body {
+    /* border: 2px solid red; */
+    width: 20%;
+    margin: 10px;
+    margin-left: 3.5%;
+    padding: 20px;
+} 
+
+.card {
+    /* border: 3px solid red; */
+    padding: 3%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+}
+
+.check h1 {
+    padding-top: 10px;
+    
+}
+.check h1 span {
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    padding: 5px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.services {
+    /* width: ; */
+}
+
+.services h1 {
+    margin-top: 10%;
+    padding-top: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.services-in {
+    display: flex;
+}
+
+.services-list {
+    text-align: center;
+    margin: 5% 50px;
+    padding: 0px 50px;
+    cursor: pointer;
+}
+
+.services-list span {
+    font-size: 50px;
+    color: red;
+}
+
+
+
+
+/*------------- Why Choose Us ----------------------*/
+.why1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 10%;
+    margin-top: 10px;
+
+}
+
+.why1 p {
+    margin-right: 15%;
+    margin-top: 10px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.why_imgg {
+    margin-right: 10%;
+}
+
+.why_images {
+    width: 130%;
+    border-radius: 10px;
+}
+
+.why_h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.why_h2  {
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    margin-left: 5px;
+    background-color: navy;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.done {
+    display: flex;
+}
+
+ .repu{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+}
+
+.done p {
+    font-weight: bold;
+}
+
+/*---------------customer Section------------------*/
+
+.review_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 45%;
+}
+
+
+
+
+/*---------- App --------------------*/
+
+.app {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    padding: 5% 0px;
+}
+
+.app-data {
+    /* border: 2px solid green; */
+    padding-top: 10%;
+    
+}
+
+.down {
+    color: red;
+    font-weight: bold;
+}
+
+.store {
+    border: 2px solid red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.store span {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.detail {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 20%;
+}
+
+.appdata-main {
+    padding-left: 20%;
+}
+/* .app-look {
+    border: 2px solid purple;
+} */
+
+
+/*----------------------------==== About Us Page ====------------------------*/
+
+.about {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.about h3 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about p{
+    line-height: 2;
+    font-size: 17px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+
+
+/*----------------------------==== Sign UP ====------------------------*/
+
+.join h2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.box {
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: center;
+    padding: 0 20px 50px 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+.pic {
+    /* border-right: 3px solid green; */
+    padding-right: 30px;
+    padding-top: 10%;
+}
+
+.form-data {
+    /* border: 3px solid purple; */
+    padding-left: 20px;
+    width: 45%;
+
+}
+.input-field {
+    /* border: 3px solid blue; */
+    width: 90%;
+    margin-bottom: 30px;
+    padding-bottom: 10%;
+    padding-left: 15%;
+}
+.input-field label {
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+input {
+    width: 75%;
+    height: 20%;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+
+/*-------------==== Cntact Us ====---------------*/
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.contact_us {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    /* border: 5px solid red; */
+
+}
+
+.contact_detail .type {
+    font-weight: bold;
+}
+
+.contact_detail a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+}
+
+.contact_detail a:hover {
+    padding: 5px;
+    border-bottom: 2px solid purple;
+    border-radius: 5px;
+    color: purple;
+    transition: .3s;
+
+}
+
+.logo_size {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: maroon;
+}
+.contact_us div {
+    /* border: 3px solid green; */
+    margin: 50px 25px 5% 15px;
+    width: 25%;
+}
+
+iframe {
+    box-shadow: 0px 5px 5px 0px;
+    border-radius: 5px;
+}
+
+
+/* -----------==== Login Page ====-----------*/
+
+.login {
+
+    /* border: 5px solid gray; */
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    box-shadow: 0px 5px 5px 0px;
+    
+}
+
+.login h3 {
+    font-weight: bold;
+}
+
+.login form input {
+    width: 70%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.login form button {
+    color: black;
+    margin: 25px;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.log_logo {
+    font-size: 35px;
+}
+
+
+
+/* ---------==== blog ====----------*/
+.all-blog {
+    margin: 5% 0;
+}
+
+.blog-name {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.blog {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    /* border: 3px solid red; */
+    padding: 10px 15px;
+    box-shadow: 0px 3px 3px 0;
+}
+
+.blog-img img {
+    width: 200px;
+    border-radius: 3px;
+} 
+
+.blog-data {
+    padding-left: 20px;
+    /* border: 2px solid purple; */
+    width: 100%;
+}
+
+.blog-data p{
+    /* border: 2px solid green; */
+    width: 60%;
+}
+
+
+/* ----------==== Business Model ====-------------- */
+.business {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%
+    ;
+}
+
+.benefits, .join_us { 
+    margin: 10px;
+    padding: 5px;
+}
+.benefits p, .join_us p {
+    text-align: justify;
+    padding-top: 5px;
+    line-height: 1.8;
+}
+
+.benefits {
+    border-right: 3px solid black;
+    padding-right: 30px;
+}
+
+.benefits h4, .join_us h4 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
